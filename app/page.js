@@ -1,5 +1,13 @@
+import Nav from "../components/Nav.jsx";
+
+
 const Home = () => {
-  return <div>page</div>;
+  return (
+    <>
+      <Nav />
+  
+    </>
+  );
 };
 
 export default Home;
