@@ -1,11 +1,12 @@
 'use client'
-import { useState } from "react";
+import { UseTodo } from '../Context/context.js'
 
+import { useState } from "react";
 const TodoList = () => {
-    const [todo, setTodo] = useState(['toto1', 'toto2', 'todo3', 'todo4'])
+  const { todo, AddTodo } = UseTodo();
      const [inputValue, setInputValue] = useState("");
     function handleAddButton() {
-        setTodo((prevState) => [...prevState, inputValue]);
+        AddTodo( inputValue);
         setInputValue('')
         
     }
