@@ -14,3 +14,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 Your feedback and contributions are welcome!
 
+## Preview
+![alt text](./public/preview.png)
+
